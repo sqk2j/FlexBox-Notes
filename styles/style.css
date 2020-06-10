@@ -1,0 +1,51 @@
+body{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+}
+
+strong{
+    font-weight: bold;
+}
+
+table, th, td{
+    border: 1px solid black;
+    padding: 2px;
+}
+/* Header */
+header{
+    display: flex;
+    flex-direction: row nowrap;
+
+}
+header #logo {
+    width: 100px;
+    height: auto;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+
+/* Flex-Container Properties: */
+/*DISPLAY */
+
+#display .code{
+    width: auto;
+    height:100px;
+}
+
+/*Flex-Direction*/
+
+#flex-direction .code{
+    width: auto;
+    height: 110px;
+}
+
+
+
+/*code for snapshots*/
+
+/*
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+}

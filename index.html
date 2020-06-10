@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FlexBox Notes</title>
+        <link href="styles/reset.css" type="text/css" rel="stylesheet">
+        <link href="styles/style.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&display=swap" rel="stylesheet"> 
+
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="images/profile.jpg" alt="sqk2j">
+            <h1>FlexBox Notes</h1>
+            <nav>
+
+            </nav>
+        </header>
+        
+        <main>
+            <!-- FLEX CONTAINER PROPERTIES-->
+            <section id="flex-container">
+                <h2>CSS: Flex-Container Properties</h2>
+
+                <div class="container" id="display">
+                    <h3>display:</h3>
+                        <p>defines a flex container</p>
+                    <table>
+                        <tr>
+                            <th rowspan="2">display:</th>
+                            <td>flex</td>
+                            <td>sets an HTML element as a block level flex container which takes the full width of its parent container</td>
+                        </tr>
+                        <tr>
+                            <td>inline-flex</td>
+                            <td>sets an HTML element as an inline flex container which takes only the required space for the content</td>
+                        </tr>
+                    </table>
+                    <img class="code" src="images/display-flex.png" alt="display:flex example">
+                    <img class="code" src="images/display-inlineflex.png" alt="display:inline-flex example">
+                </div>
+
+                <div class="container" id="flex-direction">
+                    <h3>flex-direction: </h3> 
+                        <p>establishes the main-axis, defines the direction flex items are placed in the flex container </p>
+                    <table>
+                        <tr>
+                            <th rowspan="4">flex-direction:</th>
+                            <td>row (default)</td>
+                            <td>left to right</td>
+                        </tr>
+                        <tr>
+                            <td>row-reverse</td>
+                            <td>right to left</td>
+                        </tr>
+                        <tr>
+                            <td>column</td>
+                            <td>same as 'row' but top to bottom</td>
+                        </tr>
+                        <tr>
+                            <td>column-reverse</td>
+                            <td>same as 'row-reverse' but bottom to top</td>
+                        </tr>
+                    </table>
+                    <img class="code" src="images/row.png" alt="row">
+                    <img class="code" src="images/row-reverse.png" alt="row-reverse">
+                    <img class="code" src="images/column.png" alt="column">
+                    <img class="code" src="images/column-reverse.png" alt="column-reverse">
+                </div>
+
+                <div class="container" id="flex-wrap">
+                    <h3>flex-wrap:</h3>
+                        <p>determines whether flex-items wrap or try to fit on one line</p>
+
+                    <table>
+                        <tr>
+                            <th>flex-wrap:</th>
+                            <td>nowrap (defult)</td>
+                            <td>all flex items on one line</td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>wrap</td>
+                            <td>flex items wrap onto multiple lines, from top to bottom</td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>wrap-reverse</td>
+                            <td>flex items wrap onto multiple lines from bottom to top</td>
+                        </tr>
+                    </table>
+
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+
+        </footer>
+    </body>
+</html>
